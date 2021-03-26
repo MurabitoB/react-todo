@@ -20,10 +20,10 @@ function App() {
   ]);
 
   const handleButtonClick= () =>{
-      setTodos([{id,content:value}, ...todos    ])
+      setTodos([{id,content:value},    ...todos    ])
       id++;
       setValue('');
-  }
+  };
 
 
   const [value, setValue] = useState('');
